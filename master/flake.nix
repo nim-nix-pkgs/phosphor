@@ -9,8 +9,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-Phosphor-master.flake = false;
+  inputs.src-Phosphor-master.ref   = "refs/heads/master";
   inputs.src-Phosphor-master.owner = "barcharcraz";
-  inputs.src-Phosphor-master.ref   = "master";
   inputs.src-Phosphor-master.repo  = "Phosphor";
   inputs.src-Phosphor-master.type  = "github";
   
