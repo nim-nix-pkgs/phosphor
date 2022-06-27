@@ -36,9 +36,11 @@
     "opengl": {
       "inputs": {
         "flakeNimbleLib": [
+          "phosphor-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "phosphor-master",
           "nixpkgs"
         ],
         "src-opengl-1_2_6": "src-opengl-1_2_6",
@@ -46,11 +48,11 @@
       },
       "locked": {
         "dir": "1_2_6",
-        "lastModified": 1656301850,
-        "narHash": "sha256-Btf/Tz339FsXj3b5Nvejg6njPqh0VIy7wiIOk7MTuwg=",
+        "lastModified": 1653702980,
+        "narHash": "sha256-47bCuAiPm4yald3/qkLdnMcK0BbMV23OegJ2DLxjesg=",
         "owner": "nim-nix-pkgs",
         "repo": "opengl",
-        "rev": "4fdadeadc748d69e22a455ed449b883d80d2b87b",
+        "rev": "b02865f756ddd7e0979aadd99e4c4b98fa0aa0a4",
         "type": "github"
       },
       "original": {
@@ -61,12 +63,39 @@
         "type": "github"
       }
     },
+    "phosphor-master": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "opengl": "opengl",
+        "src-Phosphor-master": "src-Phosphor-master"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1653703213,
+        "narHash": "sha256-zusUbQQs/eohkgfL3mrVKSvtPJRJI9YgAW/doEtQitI=",
+        "owner": "nim-nix-pkgs",
+        "repo": "phosphor",
+        "rev": "a9e6efe26aee867c0ea0d0aa689bd2970bf8f173",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "phosphor",
+        "type": "github"
+      }
+    },
     "root": {
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
         "nixpkgs": "nixpkgs",
-        "opengl": "opengl",
-        "src-Phosphor-master": "src-Phosphor-master"
+        "phosphor-master": "phosphor-master"
       }
     },
     "src-Phosphor-master": {
@@ -123,10 +152,12 @@
     "x11": {
       "inputs": {
         "flakeNimbleLib": [
+          "phosphor-master",
           "opengl",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "phosphor-master",
           "opengl",
           "nixpkgs"
         ],
