@@ -1,0 +1,10 @@
+nimcache
+*.swp
+*.exe
+*.pdb
+*.ilk
+*.o
+*.c
+*.sln
+*.suo
+*.nimproj
