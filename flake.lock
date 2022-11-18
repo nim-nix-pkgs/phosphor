@@ -215,11 +215,11 @@
       },
       "locked": {
         "dir": "1_2_6",
-        "lastModified": 1668749742,
-        "narHash": "sha256-vLLnCtjDvNN33BdmQxa4sBqU5lBJe3aPCvtKQjXTCtw=",
+        "lastModified": 1668755445,
+        "narHash": "sha256-6DPoXectkpO7BktSkzvvRpuyLLGtHuPdNIyjDmy6Jio=",
         "owner": "nim-nix-pkgs",
         "repo": "opengl",
-        "rev": "f37575b33b88d693507951103294761d9228306d",
+        "rev": "4217cb8ed9d99812a08fe72327913cc61e0b40d5",
         "type": "github"
       },
       "original": {
@@ -243,11 +243,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1668750061,
-        "narHash": "sha256-d2e5xal/omhH6jics1E3wosKKc8Ur4jKCe0zRdB2e7Y=",
+        "lastModified": 1668755700,
+        "narHash": "sha256-6J5LkHnKjWfz1RFKlxsm11YuhnGO8i/EwHANdjC80ww=",
         "owner": "nim-nix-pkgs",
         "repo": "phosphor",
-        "rev": "7c6be8b7e939001a368c6ff4610bc7bebbd06a55",
+        "rev": "903a72cf8bed49760df514c73d182f1423e01a47",
         "type": "github"
       },
       "original": {
